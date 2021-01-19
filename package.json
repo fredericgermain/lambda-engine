@@ -1,7 +1,7 @@
 {
   "name": "lambda-engine",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.4",
+  "description": "A simple AWS ALB/Lambda target group engine",
   "main": "app.js",
   "bin": {
     "lambda-engine": "app.js"
@@ -9,11 +9,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Frédéric Germain",
   "license": "GPLv3",
+  "keywords": ["AWS", "Lambda", "simulator", "dev", "testing"],
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/fredericgermain/lambda_engine_node.git"
+    "url" : "https://github.com/fredericgermain/lambda-engine.git"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
