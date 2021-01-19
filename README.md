@@ -10,6 +10,7 @@ Tested on a Ruby/Rails app using Lamby, but it should be language independent.
 1) Start the engine :
 
 `node app.js`
+`npx lambda-engine`
 
 The engine listens by default on 
 - port 5000 for external HTTP request (the one that are send on ALB), a
