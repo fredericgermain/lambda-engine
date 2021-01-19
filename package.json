@@ -11,6 +11,10 @@
   },
   "author": "",
   "license": "GPLv3",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/fredericgermain/lambda_engine_node.git"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1"
