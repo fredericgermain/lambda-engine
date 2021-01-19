@@ -11,7 +11,7 @@ Tested on a Ruby/Rails app using Lamby, but it should be language independent.
 
 `node app.js`
 
-The engine will listen by default on 
+The engine listens by default on 
 - port 5000 for external HTTP request (the one that are send on ALB), a
 - port 9000 for AWS Lambda invocation.
 
@@ -20,7 +20,12 @@ The engine will listen by default on
 `docker run --rm --it --name my-awesome-runtime-0 -e AWS_LAMBDA_RUNTIME_API="192.168.x.x:9000" -e OTHER_LAMBDA_ENV=this image_name:image_tag`
 
 3) Test you HTTP endpoint
-`curl http://192.168.x.x:5000
+`curl http://192.168.x.x:5000`
+
+#AWS useful doc
+
+* Lambda runtime API : https://docs.aws.amazon.com/fr_fr/lambda/latest/dg/runtimes-api.html
+* Lambda-ALB interface : https://docs.aws.amazon.com/lambda/latest/dg/services-alb.html
 
 # Notes on Lambda and MVC frameworks.
 
